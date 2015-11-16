@@ -1,0 +1,12 @@
+
+
+# Subject line (50-chars), do not end with a period
+#
+# Wrapped longer description (72-chars). Explain the problem that this
+# commit is solving. Do not focus on how, but what and why. 
+#
+# Fixes #78
+# Resolves #100
+# Holds #99
+# See #97, #98
+#

@@ -1,0 +1,8 @@
+. ${HOME}/.bash_prompt
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+alias p="cd ~/Projects/"

@@ -1,0 +1,13 @@
+[user]
+  name = @GITNAME
+  email = @GITEMAIL
+[alias]
+  pr = pull --rebase
+[color]
+  ui = auto
+[commit]
+  template = ~/.gitmessage
+[url "https://"]
+  insteadOf = git://
+[url "http://"]
+  insteadOf = git://
