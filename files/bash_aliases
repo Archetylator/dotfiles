@@ -5,4 +5,13 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
-alias p="cd ~/Projects/"
+alias d="cd ~/Assets/Dev/"
+
+case $(lsb_release -si) in
+	Fedora)
+		alias install="sudo dnf install"
+		;;
+	Debian)
+		alias install="sudo apt-get install"	
+		;;
+esac

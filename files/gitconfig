@@ -3,6 +3,7 @@
   email = @GITEMAIL
 [alias]
   pr = pull --rebase
+  prom = pull --rebase origin master
 [color]
   ui = auto
 [commit]
