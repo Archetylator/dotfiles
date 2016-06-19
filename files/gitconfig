@@ -4,6 +4,7 @@
 [alias]
   pr = pull --rebase
   prom = pull --rebase origin master
+  cm = checkout master
 [color]
   ui = auto
 [commit]

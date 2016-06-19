@@ -28,10 +28,10 @@ Cyan="${TC}36m";   ICyan="${TC}96m";   OnCyan="${TC}46m";   OnICyan="${TC}106m";
 White="${TC}37m";  IWhite="${TC}97m";  OnWhite="${TC}47m";  OnIWhite="${TC}107m";
 
 if [[ $EUID == 0 ]]; then # if root
-	UserStyle="${Red}"
+  UserStyle="${Red}"
   PromptChrStyle="${Cyan}"
 else
-	UserStyle="${Green}"
+  UserStyle="${Green}"
   PromptChrStyle="${Cyan}"
 fi
 
