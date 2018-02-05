@@ -2,6 +2,8 @@
 
 Copy dot-files to your home directory.
 
+Rename file `.extra.example` to `.extra` and fill in it with credentials or custom commands.  
+
 ## Inspirations & Acknowledgements
 
 **.bash_prompt**
