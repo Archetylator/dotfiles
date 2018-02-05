@@ -35,4 +35,4 @@ else
   PromptChrStyle="${Cyan}"
 fi
 
-PS1="${UserStyle}\u ${Cyan}\w${PromptChrStyle}\$ ${Rst}"
+PS1="${UserStyle}\u${Rst} ${Cyan}\w${Rst}${PromptChrStyle}\$ ${Rst}"

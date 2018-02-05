@@ -5,7 +5,7 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
-alias d="cd ~/Assets/Dev/"
+alias c="cd ~/Assets/Code/"
 
 case $(lsb_release -si) in
 	Fedora)
