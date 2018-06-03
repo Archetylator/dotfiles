@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  debian9:
+    image: "williamyeh/ansible:debian9"
+    container_name: debian9-ansible-{{ role_name }}
+    command: ansible-playbook -i localhost, --connection=local /etc/ansible/roles/{{ role_name }}/tests/test.yml
+    volumes:
+      - ../:/etc/ansible/roles/{{ role_name }}:ro
+  centos7:
+    image: "ansible/centos7-ansible:devel"
+    container_name: centos7-ansible-{{ role_name }}
+    command: ansible-playbook -i localhost, --connection=local /etc/ansible/roles/{{ role_name }}/tests/test.yml
+    volumes:
+      - ../:/etc/ansible/roles/{{ role_name }}:ro
